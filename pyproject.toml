@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "binance-spot-metrics"
+version = "0.1.0"
+description = ""
+authors = ["tomas-juhos <120075334+tomas-juhos@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "binance_spot_metrics"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
